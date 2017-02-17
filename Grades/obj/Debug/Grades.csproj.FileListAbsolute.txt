@@ -7,3 +7,7 @@ c:\users\dave\documents\visual studio 2015\Projects\Grades\Grades\obj\Debug\Grad
 C:\Users\Dave\Documents\GitHub\grades\Grades\bin\Debug\Grades.exe.config
 C:\Users\Dave\Documents\GitHub\grades\Grades\obj\Debug\Grades.exe
 C:\Users\Dave\Documents\GitHub\grades\Grades\obj\Debug\Grades.pdb
+C:\Users\Dave\Documents\GitHub\grades\Grades\bin\Debug\Grades.exe
+C:\Users\Dave\Documents\GitHub\grades\Grades\bin\Debug\Grades.pdb
+C:\Users\Dave\Documents\GitHub\grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\GitHub\grades\Grades\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace Grades
 {
-    class GradeBook
+    public class GradeBook
     {
+
         public GradeBook()
         {
+            _name = "Empty";
             grades = new List<float>();
         }
 
@@ -35,6 +38,31 @@ namespace Grades
             grades.Add(grade);
         }
 
+        public string name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                
+
+                if (!String.IsNullOrEmpty(value))
+                {
+                    if (_name != value)
+                    {
+                        NameChanged(_name, value);
+                    }
+
+                    _name = value;
+                }
+            }
+        }
+
+        public NameChangedDelegate NameChanged;
+
+        private string _name;
         private List<float> grades;
     }
 }
